@@ -1,0 +1,68 @@
+/* .App {
+  text-align: center;
+  background-color: #61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+
+.App-header {
+  /* background-color: #80c7db; */
+  background-image: url(http://www.yopitech.com/wp-content/uploads/2017/01/search-background-img.jpg);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } }
+
+.Form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Formplaceboxes{
+  width: 400px;
+}
+.Formlabel{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+#submit-btn{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: blueviolet;
+  border: none;
+}
